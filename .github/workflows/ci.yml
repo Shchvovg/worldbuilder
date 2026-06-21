@@ -31,7 +31,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        uses: uv sync
+        run: uv sync
 
       - name: Run tests
         env:
